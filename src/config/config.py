@@ -12,11 +12,13 @@ class Settings(BaseSettings):
     API_ID: int = 2040
 
     SESSION_NAME: str = 'bot'
+    SUPPORT: str = 'support'
     OWNER: int = 0
     
     BOT_USERNAME: str = 'usernamebot'
     BOT_CHANNEL: str = 'username'
 
+    ENABLE_REIDS: bool = False
     DB_ENGINE: str = 'sqlite3'
     DB_NAME: str = 'mydatabase'
     DB_HOST: str = 'localhost'
